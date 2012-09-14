@@ -15,10 +15,6 @@ class interpreter(cmd.Cmd):
 
     current_people = []
 
-    baseurl = ''
-    prompt = '= '
-    secret = None
-
 
     def init(self):
         print ""

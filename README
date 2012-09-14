@@ -2,3 +2,7 @@ This is a very basic maths games for a child just beginning to learn addition.
 
 To be expanded to include more types of feedback, and to alter difficulty as
 the game progresses depending on the success/failure rates.
+
+
+Dependencies:
+ - cmd2
