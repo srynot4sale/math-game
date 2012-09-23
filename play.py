@@ -3,17 +3,20 @@
 import cmd2 as cmd
 import readline
 import random
+import config
 
 
 class interpreter(cmd.Cmd):
 
-    student = 'Childname'
-    people = ['Mum', 'Dad', 'Nan']
+    student = config.student
+    people = config.people
 
     answer = 0
     count = 0
 
     current_people = []
+
+    prompt = '= '
 
 
     def init(self):
