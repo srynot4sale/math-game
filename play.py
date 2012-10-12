@@ -111,7 +111,7 @@ class interpreter(cmd.Cmd):
                 if len(self.current_people) == 1:
                     p = 0
                 else:
-                    p = random.randint(1, len(self.current_people)) - 1
+                    p = random.randint(0, len(self.current_people) - 1)
 
                 person = self.current_people[p]
                 del self.current_people[p]
